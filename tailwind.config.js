@@ -30,6 +30,8 @@ export default {
         "tw-bg-pocket-borealis-desktop": "url(./assets/images/desktop/image-pocket-borealis.jpg)",
         "tw-bg-soccer-team-mobile": "url(./assets/images/mobile/image-soccer-team.jpg)",
         "tw-bg-soccer-team-desktop": "url(./assets/images/desktop/image-soccer-team.jpg)",
+        "tw-bg-icon-hamburger": "url(./assets/images/icon-hamburger.svg)",
+        "tw-bg-icon-close": "url(./assets/images/icon-close.svg)",
       }
     },
   },
