@@ -32,6 +32,10 @@ export default {
         "tw-bg-soccer-team-desktop": "url(./assets/images/desktop/image-soccer-team.jpg)",
         "tw-bg-icon-hamburger": "url(./assets/images/icon-hamburger.svg)",
         "tw-bg-icon-close": "url(./assets/images/icon-close.svg)",
+        "tw-icon-facebook": "url(./assets/images/icon-facebook.svg)",
+        "tw-icon-instagram": "url(./assets/images/icon-instagram.svg)",
+        "tw-icon-pinterest": "url(./assets/images/icon-pinterest.svg)",
+        "tw-icon-twitter": "url(./assets/images/icon-twitter.svg)",
       }
     },
   },
