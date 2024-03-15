@@ -3,8 +3,9 @@ const SeeAllButton = () => {
   return (
     <button 
         className='
-            px-10 py-2 border-2 border-tw-black text-xl
-            uppercase font-bold tracking-[.5em] mt-8
+            px-20 py-7 border-2 border-tw-black text-2xl
+            uppercase font-bold tracking-[.5em]
+            absolute bottom-0 sm:static
         '
     >
         See All

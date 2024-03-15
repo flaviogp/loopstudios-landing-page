@@ -2,9 +2,9 @@ const Socials = () => {
   return (
     <ul 
         className=" 
-            w-full flex gap-7 justify-center h-8
-            [&>li]:bg-contain [&>li]:bg-center [&>li]:bg-no-repeat [&>li]:w-8 [&>li]:h-8
-            [&>li>a]:w-full [&>li>a]:h-full [&>li>a]:cursor-pointer [&>li>a]:block
+            w-full flex gap-10 justify-center h-10
+            [&>li]:bg-contain [&>li]:bg-center [&>li]:bg-no-repeat [&>li]:w-10 [&>li]:h-10
+            [&>li>a]:w-full [&>li>a]:h-full [&>li>a]:block
         "
     >
         <li className="bg-tw-icon-facebook">

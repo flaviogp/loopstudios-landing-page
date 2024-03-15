@@ -4,10 +4,12 @@ import SeeAllButton from './SeeAllButton'
 
 const Creations = () => {
   return (
-    <div className="flex flex-col gap-5 items-center mt-8">
-        <h2 className="text-3xl uppercase mb-8">our creations</h2>
-        {creations.map(item => <CreationCard creation={item} />)}
-        <SeeAllButton />
+    <div id='products' className="py-16 pb-32 flex flex-wrap gap-8 justify-center relative max-w-[1000px]">
+        <div className='flex justify-center items-center sm:justify-between w-full'>
+          <h2 className="text-5xl uppercase">our creations</h2>
+          <SeeAllButton />
+        </div>
+        {creations.map(item => <CreationCard key={item.title} creation={item} />)}
     </div>
   )
 }

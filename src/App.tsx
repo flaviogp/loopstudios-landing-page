@@ -5,7 +5,7 @@ import Main from "./components/Main"
 function App() {
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden max-w-[1440px] flex flex-col items-center">
       <Header />
       <Main />
       <Footer />

@@ -6,43 +6,43 @@ export type creation = {
 
 export const creations: creation[] = [
     {
-        title: 'Deep Earth',
+        title: 'deep earth',
         imageMobile: 'bg-tw-bg-deep-earth-mobile',
-        imageDesktop: 'bg-tw-bg-deep-earth-desktop'
+        imageDesktop: 'sm:bg-tw-bg-deep-earth-desktop'
     },
     {
-        title: 'Night Arcade',
+        title: 'night arcade',
         imageMobile: 'bg-tw-bg-night-arcade-mobile',
-        imageDesktop: 'bg-tw-bg-night-arcade-desktop'
+        imageDesktop: 'sm:bg-tw-bg-night-arcade-desktop'
     },
     {
-        title: 'Soccer Team VR',
+        title: 'soccer team vr',
         imageMobile: 'bg-tw-bg-soccer-team-mobile',
-        imageDesktop: 'bg-tw-bg-soccer-team-desktop'
+        imageDesktop: 'sm:bg-tw-bg-soccer-team-desktop'
     },
     {
-        title: 'The Grid',
+        title: 'the grid',
         imageMobile: 'bg-tw-bg-grid-mobile',
-        imageDesktop: 'bg-tw-bg-grid-desktop'
+        imageDesktop: 'sm:bg-tw-bg-grid-desktop'
     },
     {
-        title: 'From up Above VR',
+        title: 'from up above vr',
         imageMobile: 'bg-tw-bg-from-above-mobile',
-        imageDesktop: 'bg-tw-bg-from-above-desktop'
+        imageDesktop: 'sm:bg-tw-bg-from-above-desktop'
     },
     {
-        title: 'Pocket Borealis',
+        title: 'pocket borealis',
         imageMobile: 'bg-tw-bg-pocket-borealis-mobile',
-        imageDesktop: 'bg-tw-bg-pocket-borealis-desktop'
+        imageDesktop: 'sm:bg-tw-bg-pocket-borealis-desktop'
     },
     {
-        title: 'The Curiosity',
+        title: 'the curiosity',
         imageMobile: 'bg-tw-bg-curiosity-mobile',
-        imageDesktop: 'bg-tw-bg-curiosity-desktop'
+        imageDesktop: 'sm:bg-tw-bg-curiosity-desktop'
     },
     {
-        title: 'Make It Fisheye',
+        title: 'make it fisheye',
         imageMobile: 'bg-tw-bg-fisheye-mobile',
-        imageDesktop: 'bg-tw-bg-fisheye-desktop'
+        imageDesktop: 'sm:bg-tw-bg-fisheye-desktop'
     },
 ]
