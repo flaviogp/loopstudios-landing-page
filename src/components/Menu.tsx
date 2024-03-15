@@ -1,7 +1,6 @@
-import { MenuHTMLAttributes } from "react";
 
 type MenuProps = {
-  setMenu: (arg: boolean) => void;
+  setMenu?: (arg: boolean) => void;
 }
 
 const Menu = ({setMenu}: MenuProps) => {
@@ -13,7 +12,7 @@ const Menu = ({setMenu}: MenuProps) => {
     hover:before:w-full hover:before:border-2 
     before:transition-all before:delay-75
   `
-  const handleClick = () => setMenu(false);
+  const handleClick = () => setMenu && setMenu(false);
 
   return (
     <menu 
